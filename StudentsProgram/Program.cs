@@ -26,7 +26,7 @@ namespace StudentsProgram
             }
             catch(IndexOutOfRangeException e)
             {
-                Console.WriteLine("enter column count for the first matrix");
+                Console.WriteLine("enter column count for the first matrix");//
                 M = Convert.ToInt32(Console.ReadLine());
             }
 
